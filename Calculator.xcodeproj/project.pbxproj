@@ -15,6 +15,8 @@
 		524A9EF926A1C7D40060CF1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A9EF726A1C7D40060CF1C /* LaunchScreen.storyboard */; };
 		524A9F0426A1C7D40060CF1C /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9F0326A1C7D40060CF1C /* CalculatorTests.swift */; };
 		524A9F0F26A1C7D40060CF1C /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9F0E26A1C7D40060CF1C /* CalculatorUITests.swift */; };
+		52C4B91A26A1CDB80020D155 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4B91926A1CDB80020D155 /* CollectionViewCell.swift */; };
+		52C4B91C26A1D01F0020D155 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4B91B26A1D01F0020D155 /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		524A9F0A26A1C7D40060CF1C /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524A9F0E26A1C7D40060CF1C /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		524A9F1026A1C7D40060CF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C4B91926A1CDB80020D155 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		52C4B91B26A1D01F0020D155 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				524A9EEE26A1C7D30060CF1C /* SceneDelegate.swift */,
 				524A9EF026A1C7D30060CF1C /* ViewController.swift */,
 				524A9EF226A1C7D30060CF1C /* Main.storyboard */,
+				52C4B91B26A1D01F0020D155 /* DoubleExtension.swift */,
+				52C4B91926A1CDB80020D155 /* CollectionViewCell.swift */,
 				524A9EF526A1C7D40060CF1C /* Assets.xcassets */,
 				524A9EF726A1C7D40060CF1C /* LaunchScreen.storyboard */,
 				524A9EFA26A1C7D40060CF1C /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C4B91C26A1D01F0020D155 /* DoubleExtension.swift in Sources */,
 				524A9EF126A1C7D30060CF1C /* ViewController.swift in Sources */,
+				52C4B91A26A1CDB80020D155 /* CollectionViewCell.swift in Sources */,
 				524A9EED26A1C7D30060CF1C /* AppDelegate.swift in Sources */,
 				524A9EEF26A1C7D30060CF1C /* SceneDelegate.swift in Sources */,
 			);
@@ -446,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.Yuji.Iwabuchi.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.Yuji.Iwabuchi.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
